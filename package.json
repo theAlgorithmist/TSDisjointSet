@@ -1,0 +1,26 @@
+{
+  "name": "TSMTDisjointSet",
+  "version": "1.0.0",
+  "description": "TSMT Disjoint Set Data Structure",
+  "keywords": [
+    "Typescript",
+    "Programming",
+    "Data Structure",
+    "Union-Find"
+  ],
+  "author": "Jim Armstrong (www.algorithmist.net)",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "tsc -p ./src",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.5",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.4",
+    "typescript": "3.1.2"
+  },
+  "dependencies": {
+    "@types/core-js": "0.9.34"
+  }
+}
